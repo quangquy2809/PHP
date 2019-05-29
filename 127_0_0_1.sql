@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1:3306
--- Thời gian đã tạo: Th5 29, 2019 lúc 04:37 AM
+-- Thời gian đã tạo: Th5 29, 2019 lúc 04:51 AM
 -- Phiên bản máy phục vụ: 5.7.24
 -- Phiên bản PHP: 7.2.14
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `db.prj`
 --
+CREATE DATABASE IF NOT EXISTS `db.prj` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `db.prj`;
 
 -- --------------------------------------------------------
 
